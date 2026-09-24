@@ -18,8 +18,10 @@
     -AppDir   Bionic's "resources\app" folder, only if auto-detect fails.
 
   EXAMPLES
-    .\bionic-compaction-ratio-1.1.6-3.ps1                 # patch to 0.70
-    .\bionic-compaction-ratio-1.1.6-3.ps1 -Ratio 0.65     # patch to 0.65
-    .\bionic-compaction-ratio-1.1.6-3.ps1 -Restore        # undo
+  ```
+    .\bionic-compaction-ratio-1.1.6-3.ps1                 #patch to 0.70
+    .\bionic-compaction-ratio-1.1.6-3.ps1 -Ratio 0.65     #patch to 0.65
+    .\bionic-compaction-ratio-1.1.6-3.ps1 -Restore        #undo
+```
   (Prefix each with "powershell -ExecutionPolicy Bypass -File" if scripts are blocked.)
 
